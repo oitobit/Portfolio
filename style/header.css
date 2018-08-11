@@ -1,19 +1,32 @@
-/* page source */
+/* sets the page source */
 @font-face {
     src: url('/fonts/Roboto/Roboto-Regular.ttf');
     font-family: Roboto, sans-serif;
 }
 
+/* formatting of htmlt and body */
 #html, #body {
     margin: 0;
     width: var(--width-el); /* Var with width 100% */
     font-family: Roboto, sans-serif;
 }
 
+/*
+===============================================================
+
+formatting the header of page
+
+===============================================================*/
 header#header {
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; /* margin-top: 0, margin-right: 0, margin-bottom: 0, margin-left: 0 */
 }
 
+/*
+===============================================================
+
+formatting the content of div class network social
+
+===============================================================*/
 div.network-social {
     background-color: var(--bg-color-primary);
     width: 50%;
@@ -54,6 +67,12 @@ i.fa-github-square:hover {
     color: #ffffff;
 }
 
+/*
+===============================================================
+
+formatting the content of class download portfolio
+
+===============================================================*/
 div.download-portfolio {
     background-color: var(--bg-color-primary);
     width: 50%;
@@ -125,6 +144,12 @@ div.about > p {
     font-size: 1em;
 }
 
+/*
+===============================================================
+
+formatting the content of div photo-profile
+
+===============================================================*/
 div.photo-profile {
     position: relative;
     width: 100%;
