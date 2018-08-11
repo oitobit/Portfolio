@@ -1,0 +1,18 @@
+/* ===============================================================
+
+Set color
+
+===============================================================*/
+:root {
+    --bg-color-primary: rgb(144, 238, 144);
+    --bg-color-secondary: rgb(34, 34, 34);
+    --bg-color-thirt: rgb(124, 218, 124);
+    --bg-color-test: rgb(173, 215, 229);
+    --bg-color-btn: rgb(105, 211, 105);
+    --color-letter-light: rgb(255, 255, 255);
+    --color-letter-dark: rgb(70, 68, 68);
+}
+
+:root {
+    --width-el: 100%;
+}

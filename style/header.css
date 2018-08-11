@@ -1,0 +1,157 @@
+/* page source */
+@font-face {
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
+    font-family: Roboto, sans-serif;
+}
+
+#html, #body {
+    margin: 0;
+    width: var(--width-el); /* Var with width 100% */
+    font-family: Roboto, sans-serif;
+}
+
+header#header {
+    margin: 0px 0px 0px 0px;
+}
+
+div.network-social {
+    background-color: var(--bg-color-primary);
+    width: 50%;
+    height: 60px;
+    float: left;
+    padding: 15px 0px 0px 120px;
+    box-sizing: border-box;
+}
+
+a.ns-link {
+    text-decoration: none;
+    margin: 0;
+}
+
+i.fab {
+    color: #333;
+    font-size: 32px;
+    margin: 0px 4px;
+}
+
+i.fa-facebook-square:hover {
+    color: #4267B2;
+}
+
+i.fa-twitter-square:hover {
+    color: #1DA1F2;
+}
+
+i.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+i.fa-whatsapp-square:hover {
+    color: #1EBEA5;
+}
+
+i.fa-github-square:hover {
+    color: #ffffff;
+}
+
+div.download-portfolio {
+    background-color: var(--bg-color-primary);
+    width: 50%;
+    height: 60px;
+    float: right;
+    box-sizing: border-box;
+}
+
+button.btn {
+    border: none;
+    border-radius: 3px;
+    background-color: var(--bg-color-btn);
+    color: var(--color-letter-light);
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px 20px;  
+    margin: 13px 120px 0px 0px;
+    float: right;   
+    font-weight: 500;
+    font-size: 14;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+}
+
+button.btn:hover {
+    background-color: rgb(119, 223, 119);
+}
+
+div.profile {
+    clear: both;
+}
+
+/*
+===============================================================
+
+formatting of profile
+
+===============================================================*/
+
+div.about-me {
+    background-color: var(--bg-color-primary);
+    width: 100%;
+    height: 290px;
+    padding: 10px 0px 20px 0px;
+}
+
+div.about-me > h1.name, h2.title {
+    color: var(--color-letter-dark);
+    text-align: center;
+}
+
+h1.name {
+    font-size: 32px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+h2.title {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+div.about > p {
+    width: 683px;
+    margin: 10px auto;
+    text-align: center;
+    color: var(--color-letter-dark);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+div.photo {
+    float: left;
+    position: relative;
+}
+
+div.photo > img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 165px;
+    height: 163px;
+    position: absolute;
+}
+
+div.photo::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div.information {
+    background-color: var(--bg-color-thirt);
+    width: 100%;
+    height: 290px;
+}
+
+nav.navMenu {
+    background-color: var(--bg-color-secondary);
+    height: 50px;
+}
+
