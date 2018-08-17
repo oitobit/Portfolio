@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="style/variables.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/grid.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
  </head>
 <body id="body">
     <header id="header">
@@ -30,67 +31,114 @@
             <a href="https://github.com/610rodrigo/" class="ns-link" target="_blank">
                 <i class="fab fa-github-square"></i>
             </a>
-        </div>
-        <!-- //network-social -->
+        </div><!-- //network-social -->
         <div class="download-portfolio">
             <button class="btn">Download my cv</button>
-        </div>
-        <!-- //download-portfolio -->
+        </div><!-- //download-portfolio -->
         <div class="profile">
             <div class="about-me">
                 <h1 class="name">Rodrigo Sousa de França</h1>
                 <h2 class="title">Desenvolvedor Web</h2>
                 <div class="about">
                     <p>Profile info goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-                <!-- about -->
-            </div>
-            <!-- about-me -->
+                </div><!-- about -->
+            </div><!-- about-me -->
             <div class="photo-profile">
                 <div class="photo">
                     <img src="https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/15698168_843180875823351_1049803032429205037_n.jpg?_nc_cat=0&oh=371459a2471e431ba497d9317a389daa&oe=5C112273" alt="photo-profile">
-                </div>
-                <!-- photo -->
-            </div>
-            <!-- photo-profile -->
+                </div><!-- photo -->
+            </div><!-- photo-profile -->
             <div class="information">
                 <div class="contact">
-                    <a href="">
-                        <i class="fas fa-map-marker-alt">Várzea Paulista, SP</i>
-                    </a>
-                    <a href="">
-                        <i class="fas fa-envelope">rodrigo.fla75@gmail.com</i>
-                    </a>
-                    <a href="">
-                        <i class="fas fa-mobile-alt">(011)98359-3009</i>
-                    </a>
-                </div>
-                <!-- contact -->
-            </div>
-            <!-- information -->
-        </div>
-        <!-- //profile -->
-    </header>
-    <!-- //header -->
+                    <i class="fas fa-map-marker-alt">
+                        <a href="https://goo.gl/maps/SS19uQN2mmx" class="ct-link" target="_blank">Várzea Paulista, SP</a>
+                    </i>
+                    <i class="fas fa-envelope">
+                        <a href="mailto:rodrigo.fla75@gmail.com" class="ct-link" target="_blank">rodrigo.fla75@gmail.com</a>
+                    </i>
+                    <i class="fas fa-phone">
+                        <a href="tel:(011)98359-3009" class="ct-link" target="_blank">(011)98359-3009</a>
+                    </i>  
+                </div><!-- contact -->
+            </div><!-- information -->
+        </div><!-- //profile -->
+    </header><!-- //header -->
+
     <nav class="navMenu">
         <ul class="menu">
             <li class="menu-item">
-                <a href="" class="link"></a>
+                <a href="" class="link">Experiência</a>
             </li>
             <li class="menu-item">
-                <a href="" class="link"></a>
+                <a href="" class="link">Educação</a>
             </li>
             <li class="menu-item">
-                <a href="" class="link"></a>
+                <a href="" class="link">Habilidades</a>
             </li>
             <li class="menu-item">
-                <a href="" class="link"></a>
+                <a href="" class="link">Portfolio</a>
             </li>
             <li class="menu-item">
-                <a href="" class="link"></a>
+                <a href="" class="link">Contato</a>
             </li>
-        </ul>
-    </nav>
-    <!-- navMenu -->
+        </ul><!-- //menu -->
+    </nav><!-- //navMenu -->
+
+    <div class="container">
+        <!-- <section class="experiences-section section"></section> -->
+        <section class="education-section section">
+            <h2 class="section-title">Educação</h2>
+            <div class="row">
+                <div class="item">
+                    <div class="item-inner">
+                        <h3 class="degree">Análise de Sistemas</h3>
+                    </div><!-- //item-inner -->
+                    <div class="item-education">
+                        Unip - Universidade Paulista
+                    </div><!-- //item-edecutaion -->
+                    <div class="time">
+                        2015-2017
+                    </div><!-- //time -->
+                    <div class="desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil eveniet quod amet corrupti iure dignissimos sequi blanditiis explicabo iste?
+                    </div><!-- //desc -->
+                </div><!-- //item --> 
+                <div class="item">
+                    <div class="item-inner">
+                        <h3 class="degree">Ensino Médio</h3>
+                    </div><!-- //item-inner -->
+                    <div class="item-education">
+                        C. E. Profa Marcelina Nóia Alves
+                    </div><!-- //item-edecutaion -->
+                    <div class="time">
+                        2010-2012
+                    </div><!-- //time -->
+                    <div class="desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil eveniet quod amet corrupti iure dignissimos sequi blanditiis explicabo iste?
+                    </div><!-- //desc -->
+                </div><!-- //item -->
+                <div class="item">
+                    <div class="item-inner">
+                        <h3 class="degree">Informática Básica/Avançada</h3>
+                    </div><!-- //item-inner -->
+                    <div class="item-education">
+                        Guia Informática
+                    </div><!-- //item-edecutaion -->
+                    <div class="time">
+                        2011-2012
+                    </div><!-- //time -->
+                    <div class="desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil eveniet quod amet corrupti iure dignissimos sequi blanditiis explicabo iste?
+                    </div><!-- //desc -->
+                </div><!-- //item -->       
+            </div><!--//row -->           
+        </section>
+        <!-- <section class="skills-section section"></section> -->
+        <section class="portfolio-section section">
+            <h2 class="section-title">Portfolio</h2>
+            <h3 id="title-project">Projetos</h3>
+            <div class="items-wrapper"></div>
+        </section>
+    </div>
 </body>
 </html>
