@@ -1,0 +1,42 @@
+/*
+===============================================================
+
+formatation of navigation menu
+
+===============================================================*/
+
+/* formatation class navMenu */
+nav.navMenu {
+    background-color: var(--color-content); /* var with bg-color dark */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: sticky;   
+    top: 0;
+ }
+
+ul.menu {
+    list-style-type: none;   
+    margin: 0px 0px 0px 0px;
+}
+
+li.menu-item {
+    display: inline;
+}
+
+a.link {
+    color: var(--color-navigation);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    margin: 0px 12px;
+}
+
+a:hover {
+    color: var(--color-light);
+}
