@@ -22,6 +22,7 @@ h2.section-title {
     font-size: 24px;
     text-align: center;
     margin-bottom: 45px;
+    font-weight: 500;
 }
 
 div.row {
@@ -30,9 +31,10 @@ div.row {
 }
 
 div.item {
-    width: 275px;
+    max-width: 33%;
     padding: 0 30px;
     margin-bottom: 45px;
+    box-sizing: border-box;
 }
 
 h3.degree {
@@ -65,4 +67,15 @@ div.desc {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
+}
+
+h3#title-project {
+    color: var(--color-content);
+    border-bottom: 1px solid #e8e8e8;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
 }
