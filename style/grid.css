@@ -1,0 +1,68 @@
+div.container {
+    margin: 60px 0px;
+    padding: 0 9%;
+    height: 600px;
+    max-width: 100%;
+}
+
+section.section {
+    background-color: var(--color-light);
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    border-radius: 2px;
+    padding: 45px
+}
+
+section.education-section {
+    margin-bottom: 45px;
+}
+
+h2.section-title {
+    color: var(--color-dark);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.item {
+    width: 275px;
+    padding: 0 30px;
+    margin-bottom: 45px;
+}
+
+h3.degree {
+    color: var(--color-content);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    margin: 0;
+}
+
+div.item-education {
+    font-weight: 400;
+    color: #666;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    margin: 5px 0px;
+}
+
+div.time {
+    color: #8a8a8a;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+div.desc {
+    color: var(--color-desc);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
