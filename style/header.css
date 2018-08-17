@@ -1,14 +1,9 @@
-/* sets the page source */
-@font-face {
-    src: url('/fonts/Roboto/Roboto-Regular.ttf');
-    font-family: Roboto, sans-serif;
-}
-
 /* formatting of htmlt and body */
 #html, #body {
+    background-color: var(--color-html);
     margin: 0;
     width: var(--width-el); /* Var with width 100% */
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -28,7 +23,7 @@ formatting the content of div class network social
 
 ===============================================================*/
 div.network-social {
-    background-color: var(--bg-color-primary);
+    background-color: var(--color-primary);
     width: 50%;
     height: 60px;
     float: left;
@@ -42,8 +37,8 @@ a.ns-link {
 }
 
 i.fab {
-    color: #333;
-    font-size: 32px;
+    color: var(--color-dark);
+    font-size: 29px;
     margin: 0px 4px;
 }
 
@@ -74,7 +69,7 @@ formatting the content of class download portfolio
 
 ===============================================================*/
 div.download-portfolio {
-    background-color: var(--bg-color-primary);
+    background-color: var(--color-primary);
     width: 50%;
     height: 60px;
     float: right;
@@ -84,8 +79,8 @@ div.download-portfolio {
 button.btn {
     border: none;
     border-radius: 3px;
-    background-color: var(--bg-color-btn);
-    color: var(--color-letter-light);
+    background-color: var(--color-btn);
+    color: var(--color-light);
     cursor: pointer;
     text-transform: uppercase;
     padding: 10px 20px;  
@@ -93,7 +88,11 @@ button.btn {
     float: right;   
     font-weight: 500;
     font-size: 14;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+    box-shadow: var(--shadow);
+}
+
+button.btn::before {
+    font-size: 26px;
 }
 
 button.btn:hover {
@@ -112,19 +111,21 @@ formatting of profile
 ===============================================================*/
 
 div.about-me {
-    background-color: var(--bg-color-primary);
+    background-color: var(--color-primary);
     width: 100%;
     height: 290px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 40px 0px;
 }
 
 div.about-me > h1.name, h2.title {
-    color: var(--color-letter-dark);
+    color: var(--color-dark);
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1.name {
-    font-size: 32px;
+    font-size: 2em;
+    font-weight: 500;
     margin-bottom: 15px;
     letter-spacing: 0.5px;
 }
@@ -139,9 +140,11 @@ div.about > p {
     width: 683px;
     margin: 10px auto;
     text-align: center;
-    color: var(--color-letter-dark);
-    font-weight: bold;
+    color: var(--color-darkness);
     font-size: 1em;
+    font-style: medium;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
 }
 
 /*
@@ -158,15 +161,12 @@ div.photo-profile {
 div.photo > img {
     border: 5px solid #fff;
     border-radius: 50%;
-    width: 165px;
-    height: 163px;
+    width: 160px;
+    height: 160px;
     position: absolute;
-    top: 0%;
-    left: 44%;
-    text-align: center;
-    -webkit-transform: translateY( -50% );
-    -moz-transform: translateY( -50% );
-    transform: translateY( -50% );
+    top: -87px;
+    margin-left: -80px;
+    left: 50%;
 }
 
 div.photo::after {
@@ -176,35 +176,40 @@ div.photo::after {
 }
 
 div.information {
-    background-color: var(--bg-color-thirt);
+    background-color: var(--color-thirt);
     width: 100%;
-    height: 290px;
+    height: 240px;
 }
 
 div.contact {
     position: relative;
-    top: 35%;
-    left: 43%;
-    width: 220px;
-}
-
-div.contact > a {
-    text-decoration: none;
-    display: block;
+    top: 40%;
+    width: 260px;
+    margin-left: -80px;
+    left: 50%;
 }
 
 i.fas {
-    font-size: 1em;
-    color: var(--color-letter-dark);
+    color: var(--color-dark);
     margin: 10px 0px;
+    font-size: 1em;
 }
 
 i.fas::before {
-    margin: 0px 10px;
+    margin-right: 10px;
 }
 
-nav.navMenu {
-    background-color: var(--bg-color-secondary);
-    height: 50px;
+a.ct-link {
+    color: var(--color-dark);
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    text-decoration: none;
+}
+
+a.ct-link:hover {
+    color: var(--color-dark);
+    text-decoration: underline;
 }
 
