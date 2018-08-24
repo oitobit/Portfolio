@@ -16,6 +16,7 @@ Set color
     --color-navigation: rgba(247, 247, 247, .8); 
     --color-content: rgb(99, 211, 99);
     --color-desc: rgb(102, 102, 102); 
+    --color-skill: rgb(68, 68, 68);
     --shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
 }
 
