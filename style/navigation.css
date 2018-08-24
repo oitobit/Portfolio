@@ -6,17 +6,15 @@ formatation of navigation menu
 ===============================================================*/
 
 /* formatation class navMenu */
-nav.navMenu {
+nav#navMenu {
     background-color: var(--color-content); /* var with bg-color dark */
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     width: 100%;
     margin: 0;
+    height: 50px;
     display: flex;
     justify-content: center;
-    height: 50px;
     align-items: center;
-    position: sticky;   
-    top: 0;
  }
 
 ul.menu {
@@ -39,4 +37,10 @@ a.link {
 
 a:hover {
     color: var(--color-light);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
