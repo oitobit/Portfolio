@@ -73,9 +73,7 @@ div.desc {
 
 
 /* ===============================================================
-
 Formatting skills-section
-
 ===============================================================*/
 
 div.top-skills {
@@ -147,7 +145,6 @@ div.items-wrapper {
     flex-wrap: wrap;
     justify-content: center;
     margin-right: -15px;
-    margin-left: -15px;
     max-width: 100%;
 }
 
@@ -201,4 +198,58 @@ div.action > a {
 
 div.action > a:hover {
     color: var(--color-light);
+}
+
+/* ===============================================================
+Formatting contact-section
+===============================================================*/
+div.intro {
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding: 30px;
+    padding-left: 190px;
+}
+
+div.intro img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 30px;
+}
+
+div.text > p {
+    margin: 0;
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+div.text p > a {
+    color: rgb(88, 192, 88) ;
+    text-decoration: none;
+}
+
+div.text p > a:hover {
+    color: rgb(68, 145, 68);
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a.link-social {
+    text-decoration: none;
+}
+
+i[class*="ct"] {
+    color: rgb(102, 102, 102);;
+    font-size: 26px;
+    margin-right: 10px;
 }
