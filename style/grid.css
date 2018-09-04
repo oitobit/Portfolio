@@ -14,6 +14,62 @@ section.section {
     margin-bottom: 45px;
 }
 
+
+/* ===============================================================
+Formatting experiences-section
+===============================================================*/
+
+div.timeline {
+    padding: 0 30px;
+}
+
+div.box {
+    position: relative;
+}
+
+div.job {
+    width: 23%;
+    float: left;
+    margin-bottom: 200px;
+}
+
+div.title {
+    color: var(--color-content);
+    font-size: 20px;
+    max-width: 220px;
+}
+
+div.time {
+    line-height: 21px;
+}
+
+/* div.work-place::before {
+    background-color: white;
+    border: 5px solid lightgreen;
+    border-radius: 50%;
+    content: "";
+    padding: 0 10px;
+} */
+
+h3.place {
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+i.location {
+    color: #8a8a8a;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    margin-right: 3px;
+}
+
+
+/* ===============================================================
+Formatting education-section
+===============================================================*/
 section.education-section {
     border-radius: 2px;
     margin-bottom: 45px;
