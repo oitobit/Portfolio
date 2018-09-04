@@ -1,8 +1,6 @@
 /*
 ===============================================================
-
 formatation of navigation menu
-
 ===============================================================*/
 
 /* formatation class navMenu */
@@ -15,6 +13,7 @@ nav#navMenu {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
  }
 
 ul.menu {
