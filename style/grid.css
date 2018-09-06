@@ -18,52 +18,98 @@ section.section {
 /* ===============================================================
 Formatting experiences-section
 ===============================================================*/
-
-div.timeline {
+.timeline {
+    border-left: 3px solid var(--color-content);
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
     padding: 0 30px;
+    margin-left: 280px;
 }
 
-div.box {
+.timeline .item::after {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: var(--color-content);
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.timeline .item::before {
+    content: "";
+    position: absolute;
+    left: -43px;
+    top: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fff;
+    border: 3px solid var(--color-content);
+    box-sizing: border-box;
+}
+
+.timeline .item {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.timeline .work-place {
     position: relative;
 }
 
-div.job {
-    width: 23%;
-    float: left;
-    margin-bottom: 200px;
-}
-
-div.title {
-    color: var(--color-content);
-    font-size: 20px;
-    max-width: 220px;
-}
-
-div.time {
-    line-height: 21px;
-}
-
-/* div.work-place::before {
-    background-color: white;
-    border: 5px solid lightgreen;
-    border-radius: 50%;
-    content: "";
-    padding: 0 10px;
-} */
-
-h3.place {
-    color: rgb(68, 68, 68);
+.timeline .place {
+    margin-top: 0;
+    margin-bottom: 15px;
     font-size: 20px;
     font-weight: 300;
 }
 
-i.location {
-    color: #8a8a8a;
-    font-size: 12px;
+.timeline .location {
     position: absolute;
     right: 0;
     top: 2px;
-    margin-right: 3px;
+    color: #8a8a8a;
+}
+
+.timeline .job-meta {
+    position: absolute;
+    left: -280px;
+    top: 0;
+}
+
+.timeline .job-meta .title {
+    font-size: 18px;
+    color: var(--color-content);
+    max-width: 220px;
+}
+
+.timeline .job-meta .time {
+    color: #8a8a8a;
+}
+
+.timeline .job-desc {
+    color: #666;
 }
 
 
@@ -88,7 +134,7 @@ div.row {
     flex-wrap: wrap;
 }
 
-div.item {
+div.item-row {
     max-width: 33%;
     padding: 0 30px;
     margin-bottom: 45px;
