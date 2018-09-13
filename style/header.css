@@ -40,24 +40,24 @@ i.fab {
     margin: 0px 4px;
 }
 
-/* item hover */
-i.fa-facebook-square:hover {
+/* item hover color */
+i.facebook:hover {
     color: #4267B2;
 }
 
-i.fa-twitter-square:hover {
+i.twitter:hover {
     color: #1DA1F2;
 }
 
-i.fa-linkedin:hover {
+i.linkedin:hover {
     color: #0077B5;
 }
 
-i.fa-whatsapp-square:hover {
+i.whatsapp:hover {
     color: #1EBEA5;
 }
 
-i.fa-github-square:hover {
+i.github:hover {
     color: #ffffff;
 }
 
