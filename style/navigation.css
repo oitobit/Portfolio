@@ -5,26 +5,33 @@ formatation of navigation menu
 
 /* formatation class navMenu */
 nav#navMenu {
-    background-color: var(--color-content); /* var with bg-color dark */
+    align-items: center;
+    background-color: var(--color-content);
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     width: 100%;
     margin: 0;
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;
     z-index: 1;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
  }
 
+ /* formatting menu margin*/
 ul.menu {
     list-style-type: none;   
     margin: 0px 0px 0px 0px;
 }
 
+/* item navigation */
 li.menu-item {
     display: inline;
 }
 
+/* styling links navMenu */
 a.link {
     color: var(--color-navigation);
     text-decoration: none;
@@ -34,14 +41,20 @@ a.link {
     margin: 0px 12px;
 }
 
+/* color hover links navMenu */
 a:hover {
     color: var(--color-light);
 }
 
+/* menu navigation fixed after scroll top */
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
+/* highlighting item active after scroll */
+a.active {
+    color: #fff;
+}
 
