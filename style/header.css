@@ -1,9 +1,10 @@
 /* formatting of htmlt and body */
 #html, #body {
     background-color: var(--color-html);
-    margin: 0;
-    width: var(--width-el); /* Var with width 100% */
+    font-size: 1em;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 100%;
 }
 
 /*
@@ -13,35 +14,33 @@ formatting the header of page
 
 ===============================================================*/
 header#header {
-    margin: 0px 0px 0px 0px; /* margin-top: 0, margin-right: 0, margin-bottom: 0, margin-left: 0 */
+    margin: 0px 0px 0px 0px;
 }
 
-/*
-===============================================================
-
-formatting the content of div class network social
-
-===============================================================*/
+/* formatting network-social */
 div.network-social {
-    background-color: var(--color-primary);
-    width: 50%;
-    height: 60px;
-    float: left;
-    padding: 15px 0px 0px 120px;
+    background-color: var(--color-primary); /* lightcolor  */
     box-sizing: border-box;
+    float: left;
+    height: 60px;
+    padding: 15px 0px 0px 120px;
+    width: 50%;
 }
 
+/* formatting of links class network-social (ns) */
 a.ns-link {
     text-decoration: none;
     margin: 0;
 }
 
+/* item */
 i.fab {
-    color: var(--color-dark);
+    color: var(--color-dark); /* color: black */
     font-size: 29px;
     margin: 0px 4px;
 }
 
+/* item hover */
 i.fa-facebook-square:hover {
     color: #4267B2;
 }
@@ -62,12 +61,7 @@ i.fa-github-square:hover {
     color: #ffffff;
 }
 
-/*
-===============================================================
-
-formatting the content of class download portfolio
-
-===============================================================*/
+/* formatting the content of class download portfolio */
 div.download-portfolio {
     background-color: var(--color-primary);
     width: 50%;
@@ -76,29 +70,43 @@ div.download-portfolio {
     box-sizing: border-box;
 }
 
-button.btn {
-    border: none;
+/* styling class buttton */
+a.btn {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
     border-radius: 3px;
     background-color: var(--color-btn);
+    box-shadow: var(--shadow);
     color: var(--color-light);
     cursor: pointer;
-    text-transform: uppercase;
-    padding: 10px 20px;  
-    margin: 13px 120px 0px 0px;
     float: right;   
     font-weight: 500;
-    font-size: 14;
-    box-shadow: var(--shadow);
+    font-size: 14px;
+    margin: 13px 120px 0px 0px;
+    line-height: 16px;
+    padding: 8px 15px;  
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-button.btn::before {
+/* formatting button with item download */
+a.btn > i.fa-download {
+    color: var(--color-light);
+    margin: 0px;
+}
+
+a.btn::before {
     font-size: 26px;
 }
 
-button.btn:hover {
+/* button hover */
+a.btn:hover {
     background-color: rgb(119, 223, 119);
 }
 
+/* clear float */
 div.profile {
     clear: both;
 }
@@ -110,6 +118,7 @@ formatting of profile
 
 ===============================================================*/
 
+
 div.about-me {
     background-color: var(--color-primary);
     width: 100%;
@@ -117,6 +126,7 @@ div.about-me {
     padding: 10px 0px 40px 0px;
 }
 
+/* formatting headers of about profile */
 div.about-me > h1.name, h2.title {
     color: var(--color-dark);
     text-align: center;
@@ -153,6 +163,7 @@ div.about > p {
 formatting the content of div photo-profile
 
 ===============================================================*/
+
 div.photo-profile {
     position: relative;
     width: 100%;
@@ -199,6 +210,7 @@ i.fas::before {
     margin-right: 10px;
 }
 
+/* formatting of links on information class */
 a.ct-link {
     color: var(--color-dark);
     font-size: 1em;
@@ -208,6 +220,7 @@ a.ct-link {
     text-decoration: none;
 }
 
+/* ct-link hover of infromation class */
 a.ct-link:hover {
     color: var(--color-dark);
     text-decoration: underline;
