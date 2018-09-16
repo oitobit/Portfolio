@@ -4,17 +4,17 @@ Set color
 
 ===============================================================*/
 :root {
-    --color-primary: rgb(144, 238, 144);
+    --color-primary: rgb(49, 250, 140);
     --color-secondary: rgb(34, 34, 34);
-    --color-thirt: rgb(124, 218, 124);
+    --color-thirt:  rgb(14, 192, 94);
     --color-test: rgb(173, 215, 229);
-    --color-btn: rgb(105, 211, 105);
+    --color-btn-hover: rgb(44, 230, 127);
     --color-html: rgb(245, 245, 245);
     --color-light: rgb(255, 255, 255);
     --color-dark: rgb(70, 68, 68);
     --color-darkness: rgb(80, 79, 79);
     --color-navigation: rgba(247, 247, 247, .8); 
-    --color-content: rgb(99, 211, 99);
+    --color-content: rgb(39, 220, 121);
     --color-desc: rgb(102, 102, 102); 
     --color-skill: rgb(68, 68, 68);
     --shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
