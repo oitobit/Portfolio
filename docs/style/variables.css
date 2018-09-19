@@ -13,7 +13,7 @@ Set color
     --color-light: rgb(255, 255, 255);
     --color-dark: rgb(70, 68, 68);
     --color-darkness: rgb(80, 79, 79);
-    --color-navigation: rgba(247, 247, 247, .8); 
+    --color-navigation: rgba(241, 236, 236, 0.75); 
     --color-content: rgb(39, 220, 121);
     --color-desc: rgb(102, 102, 102); 
     --color-skill: rgb(68, 68, 68);
