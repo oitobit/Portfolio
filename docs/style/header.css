@@ -72,6 +72,7 @@ div.download-portfolio {
 
 /* styling class buttton */
 a.btn {
+    border: 3px double rgb(70, 235, 144);
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
