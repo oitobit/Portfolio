@@ -92,6 +92,16 @@ Formatting experiences-section
     color: #8a8a8a;
 }
 
+.location > a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.location > a:hover {
+    text-decoration: underline;
+}
+
 .timeline .job-meta {
     position: absolute;
     left: -280px;
