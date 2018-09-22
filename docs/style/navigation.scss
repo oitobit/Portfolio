@@ -29,6 +29,10 @@ nav.navMenu {
         li.menu-item {
             display: inline;
             margin-right: 30px;
+
+            a.active {
+                color: #fff;
+            }
         }
 
         li.item- {
@@ -62,9 +66,7 @@ nav.navMenu {
 }
 
 /* highlighting item active after scroll */
-a.active {
-    color: #fff;
-}
+
 
 
 

@@ -29,6 +29,9 @@ nav.navMenu ul.menu li.menu-item {
   display: inline;
   margin-right: 30px;
 }
+nav.navMenu ul.menu li.menu-item a.active {
+  color: #fff;
+}
 nav.navMenu ul.menu li.item- {
   margin-right: 0;
 }
@@ -56,8 +59,5 @@ nav.navMenu ul.menu a.link:hover {
 }
 
 /* highlighting item active after scroll */
-a.active {
-  color: #fff;
-}
 
 /*# sourceMappingURL=navigation.css.map */
