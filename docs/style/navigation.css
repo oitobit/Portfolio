@@ -18,35 +18,35 @@ nav.navMenu {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   /* formatting menu margin*/
-  /* item navigation */
-  /* styling links navMenu */
-  /* color hover links navMenu */
-  /* menu navigation fixed after scroll top */
-  /* highlighting item active after scroll */
 }
 nav.navMenu ul.menu {
   list-style-type: none;
   margin: 0px 0px 0px 0px;
+  /* item navigation */
+  /* styling links navMenu */
 }
-nav.navMenu li.menu-item {
+nav.navMenu ul.menu li.menu-item {
   display: inline;
   margin-right: 30px;
 }
-nav.navMenu li.item- {
+nav.navMenu ul.menu li.item- {
   margin-right: 0;
 }
-nav.navMenu a.link {
+nav.navMenu ul.menu a.link {
   color: var(--color-navigation);
   text-decoration: none;
   font-size: 0.9em;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   margin: 0;
+  /* color hover links navMenu */
 }
-nav.navMenu a:hover {
+nav.navMenu ul.menu a.link:hover {
   color: var(--color-light);
 }
-nav.navMenu .navMenu.sticky {
+
+/* menu navigation fixed after scroll top */
+.sticky {
   background-color: var(--color-content);
   height: 60px;
   transition: height 0.5s;
@@ -54,8 +54,10 @@ nav.navMenu .navMenu.sticky {
   top: 0;
   width: 100%;
 }
-nav.navMenu a.active {
+
+/* highlighting item active after scroll */
+a.active {
   color: #fff;
 }
 
-/*# sourceMappingURL=nav.css.map */
+/*# sourceMappingURL=navigation.css.map */

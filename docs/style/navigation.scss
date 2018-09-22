@@ -24,48 +24,47 @@ nav.navMenu {
     ul.menu {
         list-style-type: none;   
         margin: 0px 0px 0px 0px;
-    }
+
         /* item navigation */
-    li.menu-item {
-        display: inline;
-        margin-right: 30px;
-    }
+        li.menu-item {
+            display: inline;
+            margin-right: 30px;
+        }
 
-    li.item- {
-        margin-right: 0;
-    }
-    
-        /* styling links navMenu */
-    a.link {
-        color: var(--color-navigation);
-        text-decoration: none;
-        font-size: 0.9em;
-        font-family: Roboto, sans-serif;
-        font-weight: 500;
-        margin: 0;
-    }
+        li.item- {
+            margin-right: 0;
+        }
 
-    /* color hover links navMenu */
-    a:hover {
-        color: var(--color-light);
-    }
-        /* menu navigation fixed after scroll top */
-    .navMenu.sticky {
-        background-color: var(--color-content);
-        height: 60px;
-        transition: height 0.5s;
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    /* highlighting item active after scroll */
-    a.active {
-        color: #fff;
+            /* styling links navMenu */
+            a.link {
+                color: var(--color-navigation);
+                text-decoration: none;
+                font-size: 0.9em;
+                font-family: Roboto, sans-serif;
+                font-weight: 500;
+                margin: 0;
+                /* color hover links navMenu */
+                &:hover {
+                    color: var(--color-light);
+                }
+            }
     }
  }
 
+/* menu navigation fixed after scroll top */
+.sticky {
+    background-color: var(--color-content);
+    height: 60px;
+    transition: height 0.5s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+/* highlighting item active after scroll */
+a.active {
+    color: #fff;
+}
 
 
 
