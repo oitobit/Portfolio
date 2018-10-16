@@ -1,0 +1,100 @@
+@media screen and (max-width: 734px) {
+    header#header {
+        background-color: #31FA8C;
+    } 
+
+    div.about-me {
+        height: 230px;
+    }
+
+    div.about > p {
+        display: none;
+    }
+
+    div.about > p {
+        text-align: justify;
+    }
+
+    nav.navMenu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header#header {
+        background-color: #31FA8C;
+    }
+
+    h2.section-title {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    div.network-social {
+        width: 100%;
+        margin-left: -40px;
+    }
+
+    div.download-portfolio {
+        float: none;
+        width: 90%;
+        margin: auto 38%;
+    }
+
+    a.btn {
+        width: 290px;
+        text-align: center;
+    }
+
+    div.about-me {
+        height: 230px;
+    }
+
+    div.about > p {
+        display: none;
+    }
+
+    div.about > p {
+        text-align: justify;
+    }
+
+    nav.navMenu {
+        display: none;
+    }
+
+    div.container {
+        padding: 0 15px;
+    }
+
+    div.row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+   div.item-row {
+       max-width: 100%;
+       padding: 0 30px;
+   }
+
+   h3.degree {
+       font-size: 18px;
+   }
+
+   section.section {
+       padding: 30px;
+   }
+
+   div.other-skills {
+       width: 80%;
+   }
+
+   div.shape i {
+        font-size: 4em;
+    }
+
+   i[class*="colored"] {
+        font-size: 2.6em;
+    }
+}
