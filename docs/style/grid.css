@@ -245,13 +245,15 @@ h3#title-project {
     color: var(--color-content);
     cursor: pointer;
     text-align: center;
-    margin-left: 44%;
     width: 120px;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     padding-bottom: 15px;
     margin-bottom: -1px;
+    position: relative;
+    margin-left: -50px;
+    left: 50%;
 }
 
 div.items-wrapper {
