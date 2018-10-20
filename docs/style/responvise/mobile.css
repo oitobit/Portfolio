@@ -22,6 +22,8 @@
     a.btn {
         width: 290px;
         text-align: center;
+        font-size: 12px;
+        font-weight: 500;
     }
 
     div.about-me {
@@ -41,6 +43,15 @@
        display: block;
        width: 320px; 
        text-align: justify;
+    }
+
+    i.fas::before {
+        font-size: 15px;
+    }
+
+    a.ct-link {
+        font-size: 14px;
+        font-weight: 400;
     }
 
     nav.navMenu {
@@ -133,5 +144,21 @@
 
     #portfolio {    
         padding: 30px 0px;
+    }
+
+    div.intro {
+        padding: 0px;
+    }
+
+    div.intro img {
+        position: relative;
+        margin-left: -61px;
+        left: 50%;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
     }
 }
