@@ -15,8 +15,12 @@
 
     div.download-portfolio {
         float: none;
-        width: 90%;
-        margin: auto 38%;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+        left: 76%;
+        margin-left: -50%;
     }
 
     a.btn {
@@ -29,6 +33,7 @@
     div.about-me {
         height: 230px;
         padding-bottom: 160px;
+        padding-top: 50px;
     }
 
     h1.name {
@@ -160,5 +165,37 @@
     ul {
         display: flex;
         justify-content: center;
+    }
+
+    div.timeline {
+        margin: 0;
+        padding: 0;
+        padding-left: 30px;
+        width: 237px;
+    }
+
+    h3.place {
+        width: 90px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .timeline .location{
+        position: absolute;
+        top: -7px;
+    }
+
+    .location > a {
+        font-size: 14px;
+    }
+
+    .timeline .job-meta {
+        position: static;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 15px;
     }
 }
