@@ -3,6 +3,12 @@
         background-color: #31FA8C;
     }
 
+    div.panel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     h2.section-title {
         font-size: 20px;
         margin-top: 0;
@@ -10,17 +16,16 @@
 
     div.network-social {
         width: 100%;
-        margin-left: -40px;
+        padding-left: 90px;
     }
 
     div.download-portfolio {
-        float: none;
         width: 100%;
-        margin: 0;
-        position: absolute;
-        top: 50px;
-        left: 76%;
-        margin-left: -50%;
+        transform: translate(-20px,0px);
+    }
+
+    div.download-portfolio a {
+        margin-right: 0px;
     }
 
     a.btn {
@@ -33,7 +38,6 @@
     div.about-me {
         height: 230px;
         padding-bottom: 160px;
-        padding-top: 50px;
     }
 
     h1.name {
@@ -136,11 +140,16 @@
         margin-top: -10px;
     }
 
-    h3.sub-title > a {
-        font-size: 14px;
+    h3.sub-title {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+        width: 90px;
+        color: rgb(255, 255, 255);
+    }
+
+    h3.sub-title > a {
+        font-size: 14px;
     }
 
     div.action > a {
