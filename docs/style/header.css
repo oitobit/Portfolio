@@ -17,14 +17,21 @@ header#header {
     margin: 0px 0px 0px 0px;
 }
 
+div.panel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 /* formatting network-social */
 div.network-social {
     background-color: var(--color-primary); /* lightcolor  */
     box-sizing: border-box;
-    float: left;
     height: 60px;
-    padding: 15px 0px 0px 120px;
     width: 50%;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
 }
 
 /* formatting of links class network-social (ns) */
@@ -66,7 +73,6 @@ div.download-portfolio {
     background-color: var(--color-primary);
     width: 50%;
     height: 60px;
-    float: right;
     box-sizing: border-box;
 }
 
