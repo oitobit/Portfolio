@@ -1,0 +1,210 @@
+@media screen and (max-width: 375px) {
+    header#header {
+        background-color: #31FA8C;
+    }
+
+    div.panel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h2.section-title {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    div.network-social {
+        width: 100%;
+        padding-left: 100px;
+    }
+
+    div.download-portfolio {
+        width: 100%;
+        transform: translate(-30px,0px);
+    }
+
+    div.download-portfolio a {
+        margin-right: 0px;
+    }
+
+    a.btn {
+        width: 290px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    div.about-me {
+        height: 230px;
+        padding-bottom: 160px;
+    }
+
+    h1.name {
+        font-size: 26px;
+    }
+
+    h2.title {
+        font-size: 22px;
+    }
+
+    div.about > p {
+       display: block;
+       width: 320px; 
+       text-align: justify;
+    }
+
+    i.fas::before {
+        font-size: 15px;
+    }
+
+    a.ct-link {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    nav.navMenu {
+        display: none;
+    }
+
+    div.container {
+        padding: 0 15px;
+    }
+
+    div.row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    div.item-row {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+
+    h3.degree {
+        font-size: 18px;
+    }
+
+    section.section {
+        padding: 30px;
+    }
+
+    div.other-skills {
+        width: 80%;
+    }
+
+    div.shape i {
+        font-size: 4em;
+    }
+
+    i[class*="colored"] {
+        font-size: 2.6em;
+    }
+
+    div.line {
+        font-size: 14px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+        h3#title-project {
+        font-size: 12px;
+        margin-left: 33%;
+        width: 90px;
+        position: relative;
+        margin-left: -50px;
+        left: 50%;
+    }
+
+    div.items-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        margin-right: -15px;
+        margin-left: 15px;
+    }
+
+    div.items {
+        width: 120px;
+        height: 188px;
+    }
+
+    img.img-fluid {
+        width: 120px;
+        height: 70px;
+    }
+    
+    div.content {
+        padding: 15px;
+        margin-top: -10px;
+    }
+
+    h3.sub-title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 90px;
+        color: rgb(255, 255, 255);
+    }
+
+    h3.sub-title > a {
+        font-size: 14px;
+    }
+
+    div.action > a {
+        font-size: 12px;
+    }
+
+    #portfolio {    
+        padding: 30px 0px;
+    }
+
+    div.intro {
+        padding: 0px;
+    }
+
+    div.intro img {
+        position: relative;
+        margin-left: -61px;
+        left: 50%;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.timeline {
+        margin: 0;
+        padding: 0;
+        padding-left: 30px;
+        width: 237px;
+    }
+
+    h3.place {
+        width: 90px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .timeline .location{
+        position: absolute;
+        top: -7px;
+    }
+
+    .location > a {
+        font-size: 14px;
+    }
+
+    .timeline .job-meta {
+        position: static;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 15px;
+    }
+}
