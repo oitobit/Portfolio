@@ -3,6 +3,7 @@
 <p>Fique a vontade para acessá-lo.</p>
 
 <h2>Contatos</h2>
-<p><b>Link: </b>https://610rodrigo.github.io/Portfolio/</p>
+<p><b>Portfolio:</b><a href="https://rodric1.github.io/Portfolio/"></a></p>
+<p><b>Email: </b><a href="mailto:rodrigo.fla75@gmail.com">rodrigo.fla75@gmail.com</a></p>
 <p><b>Whatsapp: </b>(011)98359-3009</p>
 
