@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) and (min-width:362px) {
     header#header {
         background-color: #31FA8C;
     }
