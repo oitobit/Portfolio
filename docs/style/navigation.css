@@ -68,7 +68,7 @@ a.active {
 
 /* top up button */
 div#topcontrole {
-    background-color: var(--color-thirt);
+    background-color: var(--color-content);
     border-radius: 50%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     cursor: pointer;
@@ -79,6 +79,8 @@ div#topcontrole {
     bottom: 5px;
     opacity: 1;
     width: 36px;
+    z-index: 99;
+    outline: none;
 }
 
 /* icon fontawesome */
@@ -90,6 +92,7 @@ div#topcontrole > .fa-angle-up {
     right: -10px;
 }
 
-.show {
-    display: block;
+/* btn hover background */
+#topcontrole:hover {
+    background-color: var(--color-thirt);
 }
