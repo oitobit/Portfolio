@@ -1,4 +1,4 @@
-<h1>Portofolio</h1>
+<h1>Portfolio</h1>
 <p>Olá, seja bem-vindo ao meu portfolio :)</p>
 <p>Fique a vontade para acessá-lo.</p>
 
