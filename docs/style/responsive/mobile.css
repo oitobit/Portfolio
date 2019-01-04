@@ -54,9 +54,9 @@
        text-align: justify;
     }
 
-    i.fas::before {
+    /* i.fas::before {
         font-size: 15px;
-    }
+    } */
 
     a.ct-link {
         font-size: 14px;
@@ -206,5 +206,9 @@
         bottom: 0;
         right: 0;
         margin-bottom: 15px;
+    }
+
+    div#topcontrole > .fa-angle-up {
+        font-size: 26px;
     }
 }
