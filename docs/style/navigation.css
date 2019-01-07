@@ -52,7 +52,7 @@ a:hover {
 }
 
 /* menu navigation fixed after scroll top */
-.sticky {
+nav.sticky {
     background-color: var(--color-content);
     height: 60px;
     transition: height 0.5s;
