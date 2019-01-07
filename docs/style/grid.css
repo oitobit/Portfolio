@@ -120,6 +120,7 @@ Formatting experiences-section
 
 .timeline .job-desc {
     color: #666;
+    text-align: justify;
 }
 
 
@@ -340,6 +341,7 @@ div.text > p {
     margin: 0;
     margin-bottom: 15px;
     line-height: 27px;
+    text-align: justify;
 }
 
 div.text p > a {
