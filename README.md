@@ -5,5 +5,7 @@
 <h2>Contatos</h2>
 <p><b>Portfolio:</b> https://rodric1.github.io/Portfolio/</p>
 <p><b>Email: </b><a href="mailto:rodrigo.fla75@gmail.com">rodrigo.fla75@gmail.com</a></p>
+<p><b>Curriculo:</b> https://drive.google.com/file/d/1uZH4F4l28ALQcmb1PmN0uDsD6K5s3zl4/view</p>
 <p><b>Whatsapp: </b>(011)98359-3009</p>
+
 
